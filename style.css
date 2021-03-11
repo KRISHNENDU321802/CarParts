@@ -1,0 +1,19 @@
+#i1{
+    height: 400px;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #i2{
+      height: 200px;
+      width:300px;
+  }
